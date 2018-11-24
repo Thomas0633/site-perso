@@ -1,0 +1,24 @@
+.navMenuCv {
+    background-color: rgb(0, 0, 0) !important;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.fixedMenuCv {
+    position: fixed;
+    top: 0;
+}
+.linkNavCv {
+    font-size: 1.3em;
+}
+.itemNavCv {
+    border-radius: 5px;
+}
+.itemNavCv:hover {
+    background-color: white;
+    transition: 0.3s;
+}
+.itemNavCv:hover .linkNavCv {
+    color: black !important;
+    transition: 0.3s;
+}

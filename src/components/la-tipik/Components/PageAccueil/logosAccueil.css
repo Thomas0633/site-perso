@@ -1,0 +1,14 @@
+.logosAccueil i {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 860px) {
+    .logosAccueil {
+        height: 280px;
+        background: url("/ressources/la-tipik/image/patterns/5373.jpg") repeat;
+        background-size: contain;
+    }
+    .containerLogosAccueil {
+        display: none ;
+    }
+}

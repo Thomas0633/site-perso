@@ -11,6 +11,7 @@ react-notifications     =>  npm install --save react-notifications
 react-animate-css       =>  npm i react-animated-css --save
 react-reveal            =>  npm i react-reveal --save
 carousel                =>  npm install react-responsive-carousel --save
+react-day-picker        =>  npm i react-day-picker
 
 Installed :
 bootstrap |  fontawesome

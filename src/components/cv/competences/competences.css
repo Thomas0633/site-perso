@@ -1,0 +1,17 @@
+.competencesCv {
+    background-color: transparent;
+}
+.nameCompetenceCv {
+    font-size: 1.4em;
+}
+.backgroundCompetencesCv {
+    background-color: white;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+.backgroundCompetencesCv:hover {
+    transform: scale(1.2);
+}
+.buttonCompetencesCv {
+    border-radius: 0 !important;
+}

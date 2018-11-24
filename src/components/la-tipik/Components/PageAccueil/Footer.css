@@ -1,0 +1,24 @@
+.page-footer {
+  background-color: #545868;
+}
+
+.list-unstyled {
+  color: aliceblue !important;
+  font-size: 15px;
+}
+
+.footer-copyright {
+  background-color: #454955;
+}
+ .Nav {
+   text-align: center;
+ }
+
+.colorlist {
+  color: white !important;
+}
+.button {
+  font-size: 15px !important;
+  text-decoration: none !important;
+  padding: .0 .0 !important;
+}

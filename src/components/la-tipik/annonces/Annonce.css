@@ -1,0 +1,45 @@
+.centerTitle{
+    text-align: center;
+}
+.centerText{
+    text-align: justify;
+}
+
+
+.lien{
+    margin: 0px 0px 5% 0px;
+    font-size: 1em;
+}
+
+.image_center{
+    height: auto;
+    width: 100vw;
+}
+
+@media (min-width: 1000px){
+    .formulaire{
+        position: fixed !important ;
+    }
+    .lien{
+        font-size: 1.6em;
+
+    }
+}
+#haut{
+    padding-top: 100px;
+}
+a{
+
+    color: black !important ;
+}
+.Annonce{
+    background: url("/ressources/la-tipik/image/patterns/5373.jpg") repeat;
+    background-size: contain;
+}
+#details{
+    margin-right: 0px !important;
+}
+
+.marge-top{
+    margin-top: 5%;
+}

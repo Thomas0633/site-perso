@@ -1,0 +1,48 @@
+/* Header */
+
+header {
+    position: relative;
+}
+
+.container-header {
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+}
+
+.slogan {
+    font-family: 'shadows';
+    text-shadow: 2px 2px 1px black;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgb(63, 142, 146);
+}
+
+
+.img-header {
+    z-index: 1;
+    max-height: 800px;
+}
+
+.button-position {
+    margin-top: 10%;
+}
+
+/* Taille normale des titres sur un ordinateur */
+
+
+/* Si on utilise un petit écran (que ce soit avec un ordinateur dans une petite fenêtre ou avec un smartphone), les titres sont réduits */
+
+@media screen and (max-width: 860px) {
+    .responsiveSize {
+        font-size: 1.9em;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .responsiveSize {
+        font-size: 1.2em;
+        
+    }
+}

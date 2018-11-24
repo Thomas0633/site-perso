@@ -1,0 +1,91 @@
+.Admin{
+    background: url("/ressources/la-tipik/image/patterns/5373.jpg") repeat;
+    background-size: contain;
+    font-family: openSans, Arial, sans-serif !important;
+}
+
+.titleAdmin {
+    font-family: shadows, Arial, sans-serif;
+    font-size: 3em;
+}
+
+.titleCardsAdmin {
+    font-family: roboto, Arial, sans-serif;
+}
+
+.linkAdmin {
+    text-shadow: 0 0 0;
+}
+.linkAdmin:hover {
+    text-shadow: 0 0 0;
+}
+
+.bonjourAdmin {
+    font-family: roboto, Arial, sans-serif;
+}
+
+.ulAdmin {
+    list-style-type: none;
+}
+
+.hideAdd {
+    display: none;
+}
+.bouton:hover .hideAdd {
+    display: inline;
+}
+
+.cardsAdminPerso {
+    background-color: rgba(255, 255, 255, .5) !important;
+    opacity: 0.8;
+}
+.cardsAdminPerso:hover {
+    opacity: 1;
+}
+
+#alertSuccess {
+    position: absolute;
+    right: 0;
+    z-index: 99999;
+}
+
+
+/* --- RESPONSIVE --- */
+
+@media screen and (min-width: 1000px){
+    .ajout{
+        position: fixed !important ;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .rowAdmin{
+        flex-direction: column-reverse;
+    }
+    .hideAdd {
+        display: inline;
+    }
+    .titleAdmin {
+        text-align: center;
+    }
+    .colButtonAdmin{
+        margin: 5px 0 5px 0;
+    }
+}
+
+
+.alerte{
+    position: fixed;
+    left: 40%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 30px 20px 30px;
+   box-shadow: 5px 5px 5px black;
+   border: 1px solid black;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+.element{
+    margin-bottom: 40px;
+}

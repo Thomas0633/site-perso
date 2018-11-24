@@ -1,0 +1,47 @@
+.backgroundPlanchesFonce {
+    background-image: url("/ressources/la-tipik/image/patterns/dark_wood.png");
+}
+.backgroundPlanchesClair {
+    background-image: url("/ressources/la-tipik/image/patterns/wood_texture.png");
+}
+.backgroundPlanchesNoir {
+    background-image: url("/ressources/la-tipik/image/patterns/dark_wood.png");
+}
+.backgroundCardsClair {
+    background-image: url("/ressources/la-tipik/image/patterns/tree_bark.png");
+}
+.backgroundPlanchesWhite {
+    background: url("/ressources/la-tipik/image/patterns/leaf2.jpg") no-repeat bottom left;
+    background-size: 30% 50%;
+}
+.backgroundPlanchesWhite2 {
+    background: url("/ressources/la-tipik/image/patterns/leaf.jpg") no-repeat top right;
+    background-size: 30% 50%;
+}
+
+.whiteTitle {
+    color: rgb(63, 142, 146);
+}
+.titleShadows {
+    font-family: shadows, Arial;
+    font-weight: bold;
+}
+.titleRoboto {
+    font-family: roboto, Arial;
+}
+.txtOpenSans {
+    font-family: openSans, Arial;
+}
+.bodyCard{
+    background-color: rgba(255, 255, 255, .5) !important;
+}
+.colorTxt {
+    color: rgba(255, 255, 255, .7);
+}
+.colorTxt2 {
+    color: rgba(0, 0, 0, 0.7);
+}
+a:hover{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.466);
+    text-decoration:none !important ;
+}

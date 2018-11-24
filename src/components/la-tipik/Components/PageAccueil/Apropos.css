@@ -1,0 +1,47 @@
+.titleAbout {
+    font-family: 'shadows', Arial;
+    color: #3f8e92;
+    text-shadow: 2px 2px 1px black;
+    font-size: 3em;
+}
+
+.lead {
+    color: black;
+    font-family: "openSans";
+    font-size: 1.3em !important;
+    background-color: rgba(213, 191, 225, 0.8);
+    border-radius: 10px;
+ 
+
+}
+
+.full {
+    background-image: url("/ressources/la-tipik/image/patterns/tipiapropos.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 150% !important;
+
+}
+
+.imgAbout {
+    width: 150px;
+}
+
+@media screen and (max-width: 720px) {
+    .imgAbout {
+        display: none !important;
+    }
+
+    .full {
+        background-size: 200% 120% !important;
+    }
+
+    .lead {
+        font-size: 1em !important;
+        padding-left: -10px;
+    }
+}
+
+.lead {
+    margin-bottom: 20px;
+}
