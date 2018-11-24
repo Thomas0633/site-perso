@@ -1,0 +1,54 @@
+.FormulaireContact {
+    padding-top: 200px;
+    background: url("/ressources/la-tipik/image/patterns/5373.jpg") repeat;
+    background-size: contain;
+    font-family: 'roboto';
+    padding-bottom: 150px;   
+}
+
+.nom {
+    max-width: 500px !important;
+}
+
+.email {
+    max-width: 500px !important;
+}
+
+.message {
+    height: 100px !important;
+    max-width: 500px !important;
+}
+
+.buttonForm {
+    width: 100px !important;
+    height: 45px !important;
+    border-radius: 10px !important;
+    background-color: rgb(241, 246, 250) !important;
+    color: black !important; 
+}
+
+.button {
+    color: aliceblue !important;
+
+}
+.button:hover {
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+}
+
+.rubriques {
+    color: aliceblue !important;
+}
+
+.rubriques:hover {
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+}
+
+.CoursVerdun {
+    width: 75%;
+}
+
+.titleContact {
+    font-family: shadows, Arial, sans-serif;
+}

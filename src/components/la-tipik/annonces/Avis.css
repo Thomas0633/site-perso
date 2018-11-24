@@ -1,0 +1,16 @@
+.text_avis{
+    text-align: left;
+}
+.note_avis{
+   font-size: 2em;
+}
+.Avis{
+    padding: 20px;
+    margin: 10px 0px 10px 0px;
+    background-color: rgb(185, 184, 184);
+    border-radius: 25px;
+}
+.image_avis{
+   margin-right: 25px;
+    border-radius: 50px;
+}

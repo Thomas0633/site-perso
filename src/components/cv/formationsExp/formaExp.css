@@ -1,0 +1,46 @@
+.formationsCv {
+    background-color: rgb(255, 255, 255);
+}
+.containerFormationsCv {
+  padding: 0 7% 0 7% !important;
+}
+.rowFormationsCv {
+  height: 152px !important;
+}
+.dateFormationsCv {
+    background-color: rgb(90, 90, 90);
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+.txtFormationsCv {
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 10px;
+}
+.txtFormationsCv:hover {
+  background-color: rgb(211, 211, 211);
+}
+
+.schoolFormationsCv {
+  font-size: 2.2em !important;
+}
+
+.locationSchoolFormationCv {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.pointDateLeftCv, .pointDateRightCv {
+  width: 30px !important;
+  height: 30px;
+  background-color: rgb(226, 147, 1);
+  border: 5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 800;
+}
+.pointDateLeftCv {
+  left: -15px;
+}
+.pointDateRightCv {
+  right: -15px;
+}

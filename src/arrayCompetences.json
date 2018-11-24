@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "image": "ressources\\cv\\html.png",
+    "txt": "HTML 5",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "2",
+    "image": "ressources\\cv\\css.png",
+    "txt": "CSS 3",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "3",
+    "image": "ressources\\cv\\bootstrap.png",
+    "txt": "Bootstrap",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "4",
+    "image": "ressources\\cv\\js.png",
+    "txt": "JavaScript",
+    "desc": "Maîtrise de JavaScript Vanilla",
+    "cat": "front"
+  },
+  {
+    "id": "5",
+    "image": "ressources\\cv\\react.png",
+    "txt": "React JS",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "6",
+    "image": "ressources\\cv\\node.png",
+    "txt": "Node JS",
+    "desc": "",
+    "cat": "back"
+  },
+  {
+    "id": "7",
+    "image": "ressources\\cv\\visual-studio-code.png",
+    "txt": "Visual Studio Code",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "8",
+    "image": "ressources\\cv\\sublime.jpg",
+    "txt": "Sublime Text",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "9",
+    "image": "ressources\\cv\\brackets.png",
+    "txt": "Brackets",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "10",
+    "image": "ressources\\cv\\notepad++.png",
+    "txt": "Notepad ++",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "11",
+    "image": "ressources\\cv\\git.png",
+    "txt": "Git",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "12",
+    "image": "ressources\\cv\\github.png",
+    "txt": "GitHub",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "13",
+    "image": "ressources\\cv\\ubuntu.png",
+    "txt": "Ubuntu",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "14",
+    "image": "ressources\\cv\\mysql.png",
+    "txt": "MySQL",
+    "desc": "",
+    "cat": "back"
+  },
+  {
+    "id": "15",
+    "image": "ressources\\cv\\balsamiq.png",
+    "txt": "Balsamiq",
+    "desc": "Création de wireframe",
+    "cat": "autre"
+  },
+  {
+    "id": "16",
+    "image": "ressources\\cv\\office.png",
+    "txt": "Microsoft Office",
+    "desc": "",
+    "cat": "autre"
+  },
+  {
+    "id": "17",
+    "image": "ressources\\cv\\PhpMyAdmin_logo.png",
+    "txt": "PhpMyAdmin",
+    "desc": "",
+    "cat": "back"
+  },
+  {
+    "id": "18",
+    "image": "ressources\\cv\\python.png",
+    "txt": "Python",
+    "desc": "",
+    "cat": "back"
+  },
+  {
+    "id": "19",
+    "image": "ressources\\cv\\wamp.png",
+    "txt": "Wamp Server",
+    "desc": "",
+    "cat": "back"
+  },
+  {
+    "id": "20",
+    "image": "ressources\\cv\\xamp.png",
+    "txt": "Xampp Server",
+    "desc": "",
+    "cat": "back"
+  }
+]

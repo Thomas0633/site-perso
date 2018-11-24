@@ -1,0 +1,52 @@
+/* NavBar */
+
+.navTransparent{
+    position: absolute;
+    z-index: 100;
+    background-color: transparent;
+}
+
+.colorLink{
+    color:white !important;
+    background-color: rgb(63,142,146);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    opacity: 0.7;
+    font-size: 18px;
+    padding: 20px;
+    
+}
+
+
+
+.colorLink:hover {
+    color: whitesmoke !important;
+    text-shadow: 2px 2px 1px black;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 860px) {
+    .responsiveNav {
+        font-size: 1.0em;
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .responsiveNav {
+        font-size: 0.7em;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .responsiveLogo {
+        width: 10%;    
+    }
+}
+
+.responsiveLogo{
+     width: 17%;  
+}
+

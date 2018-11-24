@@ -1,0 +1,33 @@
+.backgroundSearchBar {
+    background-color: rgba(254, 254, 254, 0.8);
+    box-shadow: 0px 0px 10px 5px rgb(77, 77, 77);
+    border-radius: 5px;
+}
+.buttonSearchAccueil {
+    border: 2px solid white !important;
+    color: #4c5358 !important;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 1.5em !important;
+}
+.buttonSearchAccueil:hover {
+    box-shadow: 0px 0px 10px 3px #4c5358 !important;
+    background-color: white !important;
+    color: #4c5358 !important;
+}
+
+@media screen and (max-width: 600px) {
+    .containerSerachBar {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 860px) {
+    .containerSerachBar {
+        margin-top: 300px;
+    }
+    .buttonSearchAccueil {
+        box-shadow: 0px 0px 10px 3px #4c5358 !important;
+        background-color: white !important;
+        color: #4c5358 !important;
+    }
+}

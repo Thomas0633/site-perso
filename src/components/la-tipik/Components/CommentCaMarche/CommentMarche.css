@@ -1,0 +1,126 @@
+.fondHow{
+    background: url("/ressources/la-tipik/image/patterns/5373.jpg") repeat;
+    background-size: contain;
+}
+
+
+.logosCommentMarche i {
+    font-size: 3em;
+}
+
+.titreHow{
+    font-family: 'shadows', Arial;
+    color: rgb(63, 142, 146);
+    text-shadow: 2px 2px 1px black;
+    font-size: 3em;
+}
+
+.fondColorHow{
+    background-color: rgb(255, 0, 21);
+}
+
+.titreSectionColor{
+    color: #8963BA;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'roboto', serif;
+    font-size: 35px;
+    font-style: oblique;
+}
+
+.titreSectionBlanc{
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'roboto', serif;
+    font-size: 35px;
+    font-style: oblique;
+}
+
+
+.keyWord{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fontHowTitle2{
+    font-family: 'openSans', serif;
+    font-size: 22px;
+    
+}
+
+.fontHowText{
+    font-family: 'openSans', Arial;
+    font-size: 20px;
+}
+
+.fontHowTextReserve{
+    font-family: 'openSans', Arial;
+    font-size: 20px;
+    color: white;
+}
+
+.fondColorLogo{
+    background-color: #D8BFD8;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+}
+
+
+
+/* Halo lumineux */
+.light div {
+    position: relative;
+}
+
+.light div::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.light div:hover::before {
+    -webkit-animation: circle .85s;
+    animation: circle .85s;
+}
+
+@-webkit-keyframes circle {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+
+@keyframes circle {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,40 @@
+.cardContainerCv {
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  border-right: 2px solid rgb(160, 202, 216) !important;
+  border-left: 2px solid rgb(160, 202, 216) !important;
+  border-bottom: 2px solid rgb(160, 202, 216) !important;
+}
+.divBarreWindowsCv {
+  background-color: rgb(160, 202, 216) !important;
+  font-size: 0.8em !important;
+}
+.iconReduceCardCv {
+  transform: rotate(0.5turn);
+}
+.containerBadgeCv {
+  position: absolute;
+  z-index: 50;
+  opacity: 0;
+  font-size: 1.5em !important;
+}
+.divImageCardCv {
+  position: relative;
+}
+.containerBadgeCv:hover {
+  transition: 0.5s;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.badgeCardCv {
+  background-color: rgb(214, 139, 0) !important;
+  font-weight: normal !important;
+}
+.btnCardProjetCv {
+  background-color: rgb(214, 139, 0) !important;
+  border-color: rgb(214, 139, 0) !important;
+}
+.btnCardProjetCv:hover {
+  border-color: rgb(156, 102, 0) !important;
+  background-color: rgb(156, 102, 0) !important;
+}
