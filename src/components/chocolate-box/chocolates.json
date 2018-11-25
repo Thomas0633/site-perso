@@ -1,0 +1,26 @@
+[
+  {
+      "id": "1",
+      "name": "Black",
+      "color": "#2a1b0e",
+      "image": "/ressources/black-chocolate.jpg"
+  },
+  {
+      "id": "2",
+      "name": "Milk",
+      "color": "#825a39",
+      "image": "/ressources/milk-chocolate.jpg"
+  },
+  {
+      "id": "3",
+      "name": "Pistachio",
+      "color": "#94ac54",
+      "image": "/ressources/pistachio.jpg"
+  },
+  {
+      "id": "4",
+      "name": "Raspberry",
+      "color": "#ce5871",
+      "image": "/ressources/raspberry.jpg"
+  }
+]

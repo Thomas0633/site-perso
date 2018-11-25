@@ -1,0 +1,10 @@
+.ChocolateApp {
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  background-color: #F8F8F8;
+  background-image: url("/ressources/chocolate-box/chocolate-background.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
