@@ -17,7 +17,7 @@ class Projets extends Component {
                           <CardProjets
                             image='ressources/cv/projet1-react.png'
                             title='Multi-App in React'
-                            description="Développement d'une application web à titre personnel mettant en oeuvre plusieurs principes de programmationsur différentes petites applications."
+                            description="Développement d'une application web à titre personnel mettant en oeuvre plusieurs principes de programmation sur différentes petites applications."
                             techno={
                               <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadgeCv'>
                                 <Badge className='mr-3 badgeCardCv'>HTML 5</Badge>
@@ -83,23 +83,30 @@ class Projets extends Component {
 
                           <CardProjets
                             image='ressources/cv/simpson-quotes.jpg'
-                            title='Simpson Quotes'
-                            description="Création d'un site fictif destiné à une troupe de cirque. Projet effectué dans le cadre de la candidature à la Wild Code School."
+                            title='Chocolate box'
+                            description='Composez votre boîte de chocolat ! Une petit application développée en React / Redux.'
                             techno={
                               <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadgeCv'>
                                 <Badge className='mr-3 badgeCardCv'>HTML 5</Badge>
                                 <Badge className='mr-3 badgeCardCv'>CSS 3</Badge>
+                                <Badge className='mr-3 badgeCardCv'>Bootstrap</Badge>
+                                <Badge className='mr-3 badgeCardCv'>ReactStrap</Badge>
                                 <Badge className='mr-3 badgeCardCv'>JavaScript</Badge>
                                 <Badge className='mr-3 badgeCardCv'>ReactJS</Badge>
+                                <Badge className='mr-3 badgeCardCv'>Redux</Badge>
                               </div>
                             }
-                            link={<Button className='btnCardProjetCv'>Découvrir <i className="fas fa-angle-right"></i></Button>}
+                            link={
+                              <Link to="/simpson-quote">
+                                <Button className='btnCardProjetCv'>Découvrir <i className="fas fa-angle-right"></i></Button>
+                              </Link>
+                            }
                           />
 
                           <CardProjets
                             image='ressources/cv/react-fetch.jpg'
                             title='Random fetch'
-                            description="Création d'un site fictif destiné à une troupe de cirque. Projet effectué dans le cadre de la candidature à la Wild Code School."
+                            description="Une petite application qui utilise une API et génère aléatoirement des employés ou des citations des Simpsons."
                             techno={
                               <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadgeCv'>
                                 <Badge className='mr-3 badgeCardCv'>HTML 5</Badge>
@@ -108,7 +115,30 @@ class Projets extends Component {
                                 <Badge className='mr-3 badgeCardCv'>ReactJS</Badge>
                               </div>
                             }
-                            link={<Button className='btnCardProjetCv'>Découvrir <i className="fas fa-angle-right"></i></Button>}
+                            link={
+                              <Link to="/simpson-fetch">
+                                <Button className='btnCardProjetCv'>Découvrir <i className="fas fa-angle-right"></i></Button>
+                              </Link>
+                            }
+                          />
+
+                          <CardProjets
+                            image='ressources/cv/simpson-quotes.jpg'
+                            title='Simpson Quotes'
+                            description="Petite application pour mettre en pratique React. Appuyez sur les interrupteurs pour allumer ou éteindre les lampes."
+                            techno={
+                              <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadgeCv'>
+                                <Badge className='mr-3 badgeCardCv'>HTML 5</Badge>
+                                <Badge className='mr-3 badgeCardCv'>CSS 3</Badge>
+                                <Badge className='mr-3 badgeCardCv'>JavaScript</Badge>
+                                <Badge className='mr-3 badgeCardCv'>ReactJS</Badge>
+                              </div>
+                            }
+                            link={
+                              <Link to="/simpson-quote">
+                                <Button className='btnCardProjetCv'>Découvrir <i className="fas fa-angle-right"></i></Button>
+                              </Link>
+                            }
                           />
                         </Row>
                     </Zoom>
