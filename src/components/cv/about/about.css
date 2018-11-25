@@ -3,4 +3,6 @@
 }
 .pAboutCv {
     line-height: 2em;
+    margin: 0 !important;
+    padding: 0 !important;
 }

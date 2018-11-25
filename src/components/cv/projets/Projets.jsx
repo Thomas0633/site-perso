@@ -13,7 +13,7 @@ class Projets extends Component {
                     <h1 className='display-4 text-white titleCategorieCv mb-5'><i className="fas fa-wrench pr-3 iconTitleCv"></i>Projets</h1>
 
                     <Zoom>
-                        <Row>
+                        <Row className='d-flex justify-content-center'>
                           <CardProjets
                             image='ressources/cv/projet1-react.png'
                             title='Multi-App in React'
@@ -78,7 +78,7 @@ class Projets extends Component {
                                 <Badge className='mr-3 badgeCardCv'>CSS 3</Badge>
                               </div>
                             }
-                            link={<Button className='btnCardProjetCv'>Découvrir <i className="fas fa-angle-right"></i></Button>}
+                            link={<a href='https://codepen.io/thomas3306/project/editor/AqBdQe' target='_blank'><Button className='btnCardProjetCv'>Découvrir <i className="fas fa-angle-right"></i></Button></a>}
                           />
 
                           <CardProjets
@@ -142,9 +142,9 @@ class Projets extends Component {
                           />
 
                           <CardProjets
-                            image='ressources/cv/simpson-quotes.jpg'
+                            image='ressources/cv/fruits-salad.jpg'
                             title='Fruits Salad'
-                            description="Création d'une page web en HTML5 et CSS3 à partir de deux maquettes web et mobile. Site adaptable sur mobile."
+                            description="Création d'une page web en HTML5 et CSS3 à partir d'une maquette."
                             techno={
                               <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadgeCv'>
                                 <Badge className='mr-3 badgeCardCv'>HTML 5</Badge>
