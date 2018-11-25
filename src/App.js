@@ -6,6 +6,8 @@ import './App.css';
 import Cv from './components/cv/Cv';
 import LaTipik from './components/la-tipik/LaTipik';
 import MultiApp from './components/multi-app/MultiApp';
+import SimpsonQuote from './components/simpson-quote/SimpsonQuote';
+import SimpsonFetch from './components/simpson-fetch/SimpsonFetch';
 
 const App = () => {
   return (
@@ -26,6 +28,16 @@ const App = () => {
           onUpdate={window.scrollTo(0, 0)}
           path="/multi-app"
           component={MultiApp}
+        />
+        <Route
+          onUpdate={window.scrollTo(0, 0)}
+          path="/simpson-quote"
+          component={SimpsonQuote}
+        />
+        <Route
+          onUpdate={window.scrollTo(0, 0)}
+          path="/simpson-fetch"
+          component={SimpsonFetch}
         />
       </Switch>
     </div>

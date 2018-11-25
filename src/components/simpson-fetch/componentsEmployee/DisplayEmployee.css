@@ -1,0 +1,9 @@
+.list-display-employee li {
+  list-style: none;
+}
+.list-display-employee ul {
+  padding-left: 0;
+}
+.containerEmployee {
+  margin-top: 20px;
+}
