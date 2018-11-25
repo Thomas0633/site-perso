@@ -140,6 +140,23 @@ class Projets extends Component {
                               </Link>
                             }
                           />
+
+                          <CardProjets
+                            image='ressources/cv/simpson-quotes.jpg'
+                            title='Fruits Salad'
+                            description="Création d'une page web en HTML5 et CSS3 à partir de deux maquettes web et mobile. Site adaptable sur mobile."
+                            techno={
+                              <div className='h-100 w-100 d-flex justify-content-center align-items-center flex-wrap containerBadgeCv'>
+                                <Badge className='mr-3 badgeCardCv'>HTML 5</Badge>
+                                <Badge className='mr-3 badgeCardCv'>CSS 3</Badge>
+                              </div>
+                            }
+                            link={
+                              <Link to="/fruits-salad">
+                                <Button className='btnCardProjetCv'>Découvrir <i className="fas fa-angle-right"></i></Button>
+                              </Link>
+                            }
+                          />
                         </Row>
                     </Zoom>
                 </Container>

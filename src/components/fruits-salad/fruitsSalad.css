@@ -1,0 +1,282 @@
+/* --- GENERAL --- */
+@font-face {
+	font-family: gravity;
+	src: url('/ressources/fruits-salad/gravity/Gravity-UltraLight.otf');
+}
+/* --- GENERAL --- */
+
+
+/* --- BLOCK HEADER --- */
+#blockHeader {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #FF6A00;
+	line-height: 100px;
+}
+/* --- BLOCK HEADER --- */
+
+
+/* --- LOGO --- */
+#blockLogo {
+	width: 158px;
+	height: 179px;
+	margin-top: 0;
+	margin-left: 115px;
+	padding-top: 0;
+	background-color: #FF6A00;
+}
+#logoImg {
+	margin-top: 0;
+	padding-top: 0;
+}
+/* --- LOGO --- */
+
+
+/* --- MENU HEADER --- */
+#menuHeader {
+	list-style-type: none;
+	padding: 0 100px 0 0;
+	margin: 0;
+	display: flex;
+}
+#menuHeader li {
+	padding: 0 15px 0 15px;
+	font-size: 1.5em;
+	font-family: PT Serif, Arial, Serif;
+}
+.lienMenuHeader {
+	color: #FFFFFF !important;
+	text-decoration: none;
+}
+.lienMenuHeader:focus {
+	color: #000000;
+}
+/* --- MENU HEADER --- */
+
+
+/* --- SECTION 1 --- */
+#section1 {
+	width: 100%;
+	height: 670px;
+	background-image: url('/ressources/fruits-salad/images/1112.jpg');
+}
+/* --- SECTION 1 --- */
+
+
+/* --- ARTICLES --- */
+#articles {
+	float: right;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 250px;
+	margin-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 480px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-family: gravity, Arial, Serif;
+}
+/* --- ARTICLES --- */
+
+
+/* --- CERCLE ARTICLE --- */
+#cercleArticle1 {
+	border-radius: 50%;
+	width: 115px;
+	height: 115px;
+	border: 2px solid #FFFFFF;
+	background-image: url('/ressources/fruits-salad/images/b-2.jpg');
+	background-size: cover;
+	margin: auto;
+}
+#cercleArticle2 {
+	border-radius: 50%;
+	width: 115px;
+	height: 115px;
+	border: 2px solid #FFFFFF;
+	background-image: url('/ressources/fruits-salad/images/b-3.jpg');
+	background-size: cover;
+	margin: auto;
+}
+/* --- CERCLE ARTICLE --- */
+
+
+/* --- ARTICLE --- */
+#article1, #article2 {
+	background-color: #FFFFFF;
+	width: 195px;
+	padding: 20px 5px 5px 5px;
+}
+#articles h3 {
+	font-size: 1em;
+	margin-top: 25px;
+	color: #FF6A00;
+}
+#articles p {
+	font-size: 0.9em;
+	color: #606060;
+}
+/* --- ARTICLE --- */
+
+
+/* --- SELECT SALAD --- */
+#section2 {
+	padding: 50px 200px 0 200px;
+	margin-top: 50px;
+	font-family: gravity;
+}
+#section2 h1 {
+	text-align: center;
+}
+#selectSaladContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+#selectSalad {
+	display: flex;
+	justify-content: flex-start;
+	min-width: 670px;
+	height: 200px;
+	overflow: hidden;
+	border: 5px solid #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 1px 1px 12px #C0C0C0;
+}
+.vignetteSelectSalad img, #vignette1 img {
+	width: 320px;
+	height: 200px;
+}
+.vignetteSelectSalad {
+	width: 50px;
+}
+#vignette1:nth-child(1) {
+	flex: 2;
+}
+
+#textSelectSalad {
+	margin-left: 100px;
+}
+/* --- SELECT SALAD --- */
+
+
+/* --- BEST SALADS --- */
+#section3 {
+	padding: 50px 200px 0 200px;
+	margin-top: 50px;
+	font-family: gravity;
+}
+#section3 h1 {
+	text-align: center;
+}
+#vignettesBestSaladsGlobal {
+	display: flex;
+	justify-content: space-around;
+}
+.superposBestSalads {
+	position: absolute;
+	z-index: 1;
+	color: #FFFFFF;
+  background-color: #303030;
+  margin-top: 16px;
+	padding: 3px 10px 3px 10px;
+}
+#blancSection4 h2 {
+	color: #FF6A00;
+}
+.buttonReadMore {
+	background-color: #303030;
+	width: 115px;
+}
+.buttonReadMore p {
+	font-size: 1.3em;
+	color: #FFFFFF;
+	font-weight: bold; /* A mettre en gras */
+  text-align: center;
+  padding-top: 0 !important;
+}
+/* --- BEST SALADS --- */
+
+
+/* --- SECTION 4 --- */
+#section4 {
+	font-family: gravity;
+}
+#backgroundSection4 {
+	height: 650px;
+	width: 100%;
+	overflow: hidden;
+}
+#backgroundSection4 img {
+	width: 100%;
+}
+#blancSection4 {
+	position: absolute;
+	z-index: 2;
+	height: 350px;
+	left: 0px;
+	right: 0px;
+	background-color: #FFFFFF;
+	padding: 0 200px 0 200px;
+	display: flex;
+	justify-content: space-around;
+}
+.vignettesBestSalads {
+	padding: 0 20px 0 20px;
+	text-align: justify;
+}
+.vignettesBestSalads h2 {
+	font-size: 1.5em !important;
+}
+#blockTextSection4 {
+	position: absolute;
+	z-index: 3;
+	margin-top: 350px;
+	margin-left: 50%;
+	padding: 0 200px 0 50px;
+	height: 300px;
+	background-color: rgba(255, 106, 0, 0.7);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #FFFFFF;
+}
+/* --- SECTION 4 --- */
+
+
+/* --- FOOTER --- */
+.footerFruits {
+	font-family: gravity;
+	color: #FFFFFF;
+}
+#diversFooter {
+	display: flex;
+	justify-content: space-around;
+	background-color: #303030;
+}
+#diversFooter ul {
+	list-style-type: none;
+	padding: 0;
+  color: #C0C0C0;
+  text-align: left !important;
+}
+#legalFooter {
+	background-color: #FF6A00;
+	text-align: center;
+	padding-bottom: 5px;
+}
+#flecheFooter img {
+	float: right;
+}
+#textLegalFooter p {
+	margin: 0;
+	line-height: 47px;
+}
+#contactFooterImgText {
+	display: flex;
+	justify-content: space-between;
+}
+/* --- FOOTER --- */

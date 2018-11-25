@@ -9,6 +9,7 @@ import MultiApp from './components/multi-app/MultiApp';
 import SimpsonQuote from './components/simpson-quote/SimpsonQuote';
 import SimpsonFetch from './components/simpson-fetch/SimpsonFetch';
 import ChocolateApp from './components/chocolate-box/ChocolateApp';
+import FruitsSalad from './components/fruits-salad/FruitsSalad';
 
 const App = () => {
   return (
@@ -44,6 +45,11 @@ const App = () => {
           onUpdate={window.scrollTo(0, 0)}
           path="/chocolate-box"
           component={ChocolateApp}
+        />
+        <Route
+          onUpdate={window.scrollTo(0, 0)}
+          path="/fruits-salad"
+          component={FruitsSalad}
         />
       </Switch>
     </div>
