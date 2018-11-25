@@ -1,7 +1,8 @@
 # Thomas BULLE
 
 ## Get started
-Install :
+Install : 
+
     npm                     =>  npm install
     bootstrap               =>  npm install bootstrap --save
     reactstrap              =>  npm install --save reactstrap react react-dom
@@ -12,6 +13,8 @@ Install :
     react-reveal            =>  npm i react-reveal --save
     carousel                =>  npm install react-responsive-carousel --save
     react-day-picker        =>  npm i react-day-picker
+    
 
 Installed :
-bootstrap |  fontawesome
+
+    bootstrap |  fontawesome
