@@ -36,104 +36,118 @@
   },
   {
     "id": "6",
+    "image": "ressources\\cv\\logo-redux.png",
+    "txt": "Redux",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "7",
+    "image": "ressources\\cv\\logo-sass.png",
+    "txt": "Sass",
+    "desc": "",
+    "cat": "front"
+  },
+  {
+    "id": "8",
     "image": "ressources\\cv\\node.png",
     "txt": "Node JS",
     "desc": "",
     "cat": "back"
   },
   {
-    "id": "7",
+    "id": "9",
     "image": "ressources\\cv\\visual-studio-code.png",
     "txt": "Visual Studio Code",
     "desc": "",
     "cat": "autre"
   },
   {
-    "id": "8",
+    "id": "10",
     "image": "ressources\\cv\\sublime.jpg",
     "txt": "Sublime Text",
     "desc": "",
     "cat": "autre"
   },
   {
-    "id": "9",
+    "id": "11",
     "image": "ressources\\cv\\brackets.png",
     "txt": "Brackets",
     "desc": "",
     "cat": "autre"
   },
   {
-    "id": "10",
+    "id": "12",
     "image": "ressources\\cv\\notepad++.png",
     "txt": "Notepad ++",
     "desc": "",
     "cat": "autre"
   },
   {
-    "id": "11",
+    "id": "13",
     "image": "ressources\\cv\\git.png",
     "txt": "Git",
     "desc": "",
     "cat": "autre"
   },
   {
-    "id": "12",
+    "id": "14",
     "image": "ressources\\cv\\github.png",
     "txt": "GitHub",
     "desc": "",
     "cat": "autre"
   },
   {
-    "id": "13",
+    "id": "15",
     "image": "ressources\\cv\\ubuntu.png",
     "txt": "Ubuntu",
     "desc": "",
     "cat": "autre"
   },
   {
-    "id": "14",
+    "id": "16",
     "image": "ressources\\cv\\mysql.png",
     "txt": "MySQL",
     "desc": "",
     "cat": "back"
   },
   {
-    "id": "15",
+    "id": "17",
     "image": "ressources\\cv\\balsamiq.png",
     "txt": "Balsamiq",
     "desc": "Création de wireframe",
     "cat": "autre"
   },
   {
-    "id": "16",
+    "id": "18",
     "image": "ressources\\cv\\office.png",
     "txt": "Microsoft Office",
     "desc": "",
     "cat": "autre"
   },
   {
-    "id": "17",
+    "id": "19",
     "image": "ressources\\cv\\PhpMyAdmin_logo.png",
     "txt": "PhpMyAdmin",
     "desc": "",
     "cat": "back"
   },
   {
-    "id": "18",
+    "id": "20",
     "image": "ressources\\cv\\python.png",
     "txt": "Python",
     "desc": "",
     "cat": "back"
   },
   {
-    "id": "19",
+    "id": "21",
     "image": "ressources\\cv\\wamp.png",
     "txt": "Wamp Server",
     "desc": "",
     "cat": "back"
   },
   {
-    "id": "20",
+    "id": "22",
     "image": "ressources\\cv\\xamp.png",
     "txt": "Xampp Server",
     "desc": "",

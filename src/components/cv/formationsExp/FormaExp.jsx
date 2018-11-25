@@ -33,7 +33,7 @@ class FormaExp extends Component {
                 </Container>
             </div>
 
-            <div className='pt-5 pb-5 experiencesCv' id='idExperiences'>
+            <div className='pt-5 pb-5 experiencesCv' id='idExperiencesCv'>
               <Container fluid className='containerFormationsCv'>
                 <h1 className='display-4 titleCategorieCv mb-5'><i className="fas fa-suitcase pr-3 iconTitleCv"></i>Expériences</h1>
 
