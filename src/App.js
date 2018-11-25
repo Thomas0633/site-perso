@@ -8,6 +8,7 @@ import LaTipik from './components/la-tipik/LaTipik';
 import MultiApp from './components/multi-app/MultiApp';
 import SimpsonQuote from './components/simpson-quote/SimpsonQuote';
 import SimpsonFetch from './components/simpson-fetch/SimpsonFetch';
+import ChocolateApp from './components/chocolate-box/ChocolateApp';
 
 const App = () => {
   return (
@@ -38,6 +39,11 @@ const App = () => {
           onUpdate={window.scrollTo(0, 0)}
           path="/simpson-fetch"
           component={SimpsonFetch}
+        />
+        <Route
+          onUpdate={window.scrollTo(0, 0)}
+          path="/chocolate-box"
+          component={ChocolateApp}
         />
       </Switch>
     </div>

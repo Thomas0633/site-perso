@@ -82,7 +82,7 @@ class Projets extends Component {
                           />
 
                           <CardProjets
-                            image='ressources/cv/simpson-quotes.jpg'
+                            image='ressources/cv/chocolate-box.jpg'
                             title='Chocolate box'
                             description='Composez votre boîte de chocolat ! Une petit application développée en React / Redux.'
                             techno={
@@ -97,7 +97,7 @@ class Projets extends Component {
                               </div>
                             }
                             link={
-                              <Link to="/simpson-quote">
+                              <Link to="/chocolate-box">
                                 <Button className='btnCardProjetCv'>Découvrir <i className="fas fa-angle-right"></i></Button>
                               </Link>
                             }
